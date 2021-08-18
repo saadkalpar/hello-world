@@ -1,0 +1,767 @@
+.bis 	{  	position: relative; width: 40%; 
+		height: 50px; top: 0px; left: 40% ; 
+		} 
+
+  
+.body 	{ 	font-family: "Times New Roman ", Times, serif ; 
+			font-size: 10pt; 
+			background:  wheat; 
+			letter-spacing: 2pt;
+			width: 99%; 
+		}
+
+.container {
+			position: absolute;
+			top: 1%;
+			
+			color: blue;
+			
+			text-align:   justify; 
+			font-family:"Jameel Noori Nastaleeq";  
+			font-size: 24pt; 
+
+			width: 98%;
+			height: auto; 
+			 
+    }
+
+.header {   /*	position: fixed; top : 2px; 	width: 98%;   */ 
+			padding: 5px 5px;
+			background:  azure; 
+			font-size: 18pt; 
+			position:relative; left: 15%; 
+			text-align: center;
+			width: 70%; 		
+        }
+
+.homeIcon {
+	position: fixed;  top: 1%; right: 1%;  width: 4%;   height: 7%;
+	border: 5px solid #A1A4A1;border-radius: 40px;  }
+
+.downloadFont {		position:fixed;  left:1%; top:50%;  font-size: 24pt; color: white; 
+				
+}
+
+
+
+.searchBar { position: relative;   width:28%; left : 0px;
+           color: #0000FF     ;  background:   mediumspringgreen ; padding: 5px;  
+           font-size: 12pt; text-align:   right  ; font-family: "Jameel Noori Nastaleeq";			
+		   border-color:  gold; border : solid 4px; 
+        	}
+			
+
+
+input  {  color:   blue ;  background:  lime ; text-align:   right  ; font-size: 18pt; 
+		font-family: "Jameel Noori Nastaleeq"; width:100% ; 
+        border-color: firebrick;
+        padding-left: 0px; 
+        border-left-style: solid;
+        border-left-width: 4px;
+        border-right-style: solid;
+        border-right-width: 4px;
+        border-top-width: 4px;
+        border-top-style: solid;
+        border-bottom-width: 4px;
+        border-bottom-style: solid;
+        margin-left: -5px;
+        		}  
+
+.headingText {
+	font-family: "Jameel Noori Nastaleeq";
+    
+	font-size: 28px;
+	font-style: normal;
+    text-align:   right ;
+	line-height: normal;
+	font-weight: bolder;
+	color: #000099;
+	font-weight: bold;
+	text-decoration: underline;
+	background-color: #FFFFCC;
+	letter-spacing: normal;
+	word-spacing: normal;
+}
+
+
+.urduText1 {
+	font-family: "Jameel Noori Nastaleeq";
+    
+	font-size: 28px;
+	text-align:  center ;
+	font-weight: bolder;
+	color: #669933 ;
+	font-weight: bold;
+	background-color: #FFCCCC     ; 
+	letter-spacing: normal;
+	word-spacing: normal;
+}
+
+
+.juzODD {
+			background: peachpuff;  
+            color: red; 
+    }
+
+
+.juzEVEN {
+			background: olive;  
+            color:  honeydew; 
+    }
+
+
+.divMid {
+	position: absolute; left: 33%; top: 95px;  width: 65%; 
+	
+	text-align: center;
+}
+
+
+.introBlock {
+	position: absolute;  top: -30px;  width: 100%;
+	text-align: center;
+		background:  red  ; 
+	letter-spacing: 0pt;
+
+}
+
+
+
+.bisBlock 	{ 	 
+			position: absolute;
+			top: 75px;
+			
+			right: 15%;
+			color: green;
+			direction: rtl; 
+			text-align:   justify; 
+			
+			font-family: "Al Qalam Quran"; 
+			font-size: 24pt; 
+			background:  yellow  ; 
+			letter-spacing: 0pt;
+			}
+.bTestBlock  {
+	position: absolute;
+			top: 75px;
+			
+			right: 30%;
+			
+			direction: rtl; 
+			text-align:   justify; 
+			font-size: 24pt; 
+			
+			letter-spacing: 0pt;
+	font-family:Amiri;color:blue;background:white; 
+}
+
+#suraBlock 	{ 	 
+			position: relative;
+			top: 85px;
+			right: 20px;
+			color: blue;
+			direction: rtl; 
+			text-align:   justify; 
+			font-family:"Jameel Noori Nastaleeq";  
+			font-size: 24pt; 
+			background:  white  ; 
+			padding: 10px;
+			}
+
+#ayatBlock 	{ 	 
+			position: relative;
+			color: blue;
+			direction: rtl; 
+			text-align:   justify; 
+			font-family:"Jameel Noori Nastaleeq";  
+			font-size: 24pt; 
+			background:  white  ; 
+			padding: 10px; 
+			}
+			
+#engTransBlock 	{ 	 
+			position: relative;
+			color: yellow;
+			direction: ltr; 
+			text-align:   justify; 
+			font-size: 24pt; 
+			background:  white  ; 
+			padding: 10px; 
+			}			
+
+#ayatBox 	{ 	position: relative;  background-color :#0de5ef; letter-spacing: normal;
+            text-align:   right;   font-size: 18pt;   font-family: "Jameel Noori Nastaleeq";          
+        }
+
+
+#suraBox 	{ 	position: relative; width: 80%; left: 1%;   background-color : red;
+            text-align:   right;   font-size: 28pt;   letter-spacing: normal;        
+        }
+		
+
+.result {  height: 200px;  }
+
+.textSearched { text-align:left; color : brown; }
+.textLeft { text-align: right; color: black;  }             
+        
+.arabic { font-family: noorehira ;  }
+
+                
+                
+.qumehmood {position: relative;   color : brown;  }
+
+.qufateh { position: relative;    color : #1c126f; }
+.quMohsin { color : green; text-align:left;   }
+.quTaqi { color : blue;text-align:left; }
+
+
+.ayatNumberListStyle { 	 	font-family: arial;  
+							background-color:  #1518D9;
+							
+							color : white; 
+							border: 4px solid #A1A4A1;
+							border-radius: 40px;
+							padding: 5px; 
+							}
+h4 a {visibility:hidden;} 
+
+.transNameE {  	background:GrayText; color: white; 
+				position:relative ;   
+				border: 2px solid black; border-radius: 30px;
+				padding: 6px; 		
+				direction: ltr  ;  				
+				}
+.transNameE:hover {  background:green; color :white; 
+				border: 2px solid #A1A4A1;border-radius: 30px; 
+				padding: 6px;  
+				}
+
+
+.transNameU { 	background:yellow; color: blue; 
+				font-family:"Jameel Noori Nastaleeq"; direction: rtl  ;  
+				border: 2px solid blue; border-radius: 30px;
+				padding: 2px; 
+				}
+.transNameU:hover {background:purple; color :white; 
+				border: 5px solid #A1A4A1;border-radius: 30px; 
+				padding: 5px;  
+				}
+
+
+
+h4.newBox:hover a.BoxRound {  visibility:visible; width: 39%;  height: 60px; top: -100px; 
+		 border: 3px solid yellow; 	color : white;
+}
+
+
+
+					
+h5 a {visibility:hidden;}
+h5.down2:hover a.down3 {  visibility:visible; width: 250px;  height: 50px; 
+		 border: 3px solid green; 	
+                   
+}
+
+
+.suraTitle {
+	
+			position: absolute;
+			top: 0px;
+			right: 150px;
+			width: 250px;
+			color: green; 
+			letter-spacing : 0pt; 
+			font-family: "Jameel Noori Nastaleeq"; 
+			font-size: 36pt;
+			text-align: center;
+			
+			
+}
+
+.suraTranslator {
+  position: absolute;  top: 0px; right : 410px;    font-size: 28pt;  color : blue;
+  font-family: "Jameel Noori Nastaleeq"; 
+}
+
+.nextSuraData {
+  position: absolute;  top: 0px; left : 30px;    font-size: 14pt;  color : blue;
+  font-family: "Jameel Noori Nastaleeq"; 
+}
+
+.suraData {
+  position: absolute;  top: 0px; right : 50px;     font-size: 18pt;  color : red;
+  font-family: "Jameel Noori Nastaleeq"; 
+}
+
+.previousData {
+				position: absolute;  top: 0px; right : 1px;     font-size: 18pt;  
+				color : blue;  background-color : yellow;
+				font-family: "Jameel Noori Nastaleeq"; 
+}
+.suraComplete { text-align: right; color : black; top: -130px;	
+font-family: "Jameel Noori Nastaleeq"; 	}
+
+.firstArabic { 	position: relative; right: 5%;   font-family: noorehira ; width: auto; 	 }
+.secondUrdu { 	position:relative;  right: 10%; 	 }
+.translatorName {  font-size: 20pt; text-align:   left; }
+.ayatNumberSuraStyle { 	position: relative;  right: -25%; top: -210px;  	 }
+
+
+
+.button22 {
+  padding: 1px 5px;
+  font-size: 20px;
+  position: absolute; top: -20px; left: 1%;
+width: 150px; 
+height: 100px;  
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: blue;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+   font-family:"Jameel Noori Nastaleeq";
+}
+
+.button22:hover {background-color: green}
+
+
+.button24 {
+   
+	position: relative;  
+	right: 75%; 
+	top: -45px;  
+	font-size: 20px;
+	text-align: center;
+	cursor: pointer;
+	outline: none;
+	color: #fff;
+	background-color: blue;
+	border: none;
+	border-radius: 15px;
+	box-shadow: 0 9px #999;
+	font-family:"Jameel Noori Nastaleeq";
+	padding: 5px; 
+}
+
+.button24:hover {background-color: green}
+
+.ayatData {
+  	position: relative;  
+	right: 5%; 
+	padding: 5px;  
+	font-size: 20px;
+	text-align: center;
+	cursor: pointer;
+	outline: none;
+	color: yellow;
+	background-color: green;
+	border: none;
+	border-radius: 15px;
+	box-shadow: 0 9px #999;
+	font-family:"Jameel Noori Nastaleeq";
+}
+
+
+#cssmenu,
+#cssmenu ul,
+#cssmenu ul li,
+#cssmenu ul li a,
+#cssmenu ul ul li,
+#cssmenu ul li ul li,
+#cssmenu ul li ul li a,
+#cssmenu #menu-button {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+  line-height: 1;
+  display: block;
+  position: relative;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* <a href="../fonts/noorehira.ttf" style="padding-left: 50px;top: -20px;"><span>Noor i Hira</span></a>  */
+#cssmenu {
+
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  background: lime;
+  background: -moz-linear-gradient(top, #51bbd2 0%, #2d97af 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #51bbd2), color-stop(100%, #2d97af));
+  background: -webkit-linear-gradient(top, #51bbd2 0%, #2d97af 100%);
+  background: -o-linear-gradient(top, #51bbd2 0%, #2d97af 100%);
+  background: -ms-linear-gradient(top, #51bbd2 0%, #2d97af 100%);
+  background: linear-gradient(to bottom, #51bbd2 0%, #2d97af 100%);
+box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.05);
+font-size: 24px;
+padding : 4px; 
+}
+/* set text and gap in menu heading and first child */ 
+#cssmenu > ul > li > a {
+  top: 3px; left : -3px; bottom: 4px; 
+  padding : 2px; 
+}
+/* menu block of first element */
+#cssmenu ul ul {
+  position: absolute;
+  left: -9999px;
+  padding-top: 5px;
+  font-size: 14px;
+  opacity: 0;
+  -webkit-transition: top 0.2s ease, opacity 0.2s ease-in;
+  -moz-transition: top 0.2s ease, opacity 0.2s ease-in;
+  -ms-transition: top 0.2s ease, opacity 0.2s ease-in;
+  -o-transition: top 0.2s ease, opacity 0.2s ease-in;
+  transition: top 0.2s ease, opacity 0.2s ease-in;
+}
+/* arrown sign indicating sub childs , top arrow  */ 
+#cssmenu > ul > li > ul::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border: 10px solid transparent;
+  border-bottom-color: red;
+  top: -5px;
+  left: 20px;
+}
+/* arrown sign indicating sub childs left arrow */
+#cssmenu ul ul ul::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  border: 10px solid transparent;
+  border-right-color: red;
+  top: 30px;
+  left: -20px;
+}
+/* Hover at menu heading with children  */ 
+/* box background green , no top will overlap */ 
+#cssmenu > ul > li:hover > ul {
+  top: 45px;
+  left: -10px;
+  /* background-color:  green;  */ 
+  opacity: 1; 
+}
+
+#cssmenu ul ul li:nth-child(odd) > a {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;  
+  padding: 20px 5px 15px 2px;
+  background: white;
+  color: blue;
+}
+#cssmenu ul ul li:nth-child(even) > a {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;  
+  padding: 20px 5px 20px 15px;
+  background: yellow;
+ 
+  color: red;  
+   text-align: center; 
+}
+#cssmenu ul ul li:last-child:hover > a {   background: lime; color: black;   }
+#cssmenu ul ul li:nth-child(odd):hover > a { background: lime; color: blue;  }
+#cssmenu ul ul li:nth-child(even):hover > a { background: red; color: white;  }
+
+
+/*
+.searchSideBar {
+			position: relative;  top: 30%;  left: 1% ;  height: 50%; 	width: 16%;
+			background-color :   #001999;  
+            font-size: 16pt; text-align:   left ; font-family: "Jameel Noori Nastaleeq";
+			padding: 5px; border: 1px solid lime; 
+}
+
+
+.searchBarInput { position: relative;  top: 40px; width:30%;   height: 35px;	
+            padding: 5px;  left : 0px;
+            
+			}
+
+
+
+.searchBarInput:hover{  background-color : red;  color : yellow; border: 3px ;
+	}
+
+
+
+
+
+
+.lensImage { position: absolute;  top: 0px; 	left: -90px;        	}
+
+.lensImage:hover { border: 1px ;         	}			
+
+	
+.searchSideBar {
+			position: fixed;  top: 30%;  left: 1% ;  height: 50%; 	width: 16%;
+			background-color :   #001999;  
+            font-size: 16pt; text-align:   left ; font-family: "Jameel Noori Nastaleeq";
+			padding: 5px; border: 1px solid lime; 
+}
+
+
+.uText1   {  position: absolute;  top: 0px; right: 1%; height: 43px; 	
+ font-family: "Jameel Noori Nastaleeq";
+		color:   green ;  background:  blue ;
+		
+		}  
+
+.inputBox1{
+	position: absolute;  top: 0px; width:25px; left: 1%; height: 35px;	
+	font-family:inherit; 	font-size:85%;	
+	background-color :   red;   color : blue; 
+	text-align:   right  ;	padding: 4px;  	margin:0;	
+	}
+
+
+*/
+
+.basss (   )
+
+
+
+
+
+/*
+
+.topBlockLeft {	 	position:absolute; width: 300px; height: 300px; left:50px; top:15px; 
+					padding: 4px 5px 4px 5px;
+ }
+.topBlockRight {	position:fixed;  left:750px; top:200px; 
+					padding: 1px 1px 1px 1px;
+}
+
+
+
+
+        
+ .findWord { position: absolute; left: 210px; top: 50px; width:300px; height: 50px; 	   background-color: brown;    color:  yellow;    vertical-align:middle;             font-size: 18pt; text-align: right;  }
+
+
+
+
+
+.button22:li {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.button {
+  background-color: #4CAF50; 
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.button2 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+
+.button2:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+.button3 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #f44336;
+}
+
+.button3:hover {
+  background-color: #f44336;
+  color: white;
+}
+
+.button4 {
+  background-color: white;
+  color: black;
+  border: 2px solid #e7e7e7;
+}
+
+.button4:hover {background-color: #e7e7e7;}
+
+.button5 {
+  background-color: white;
+  color: black;
+  border: 2px solid #555555;
+}
+
+.button5:hover {
+  background-color: #555555;
+  color: white;
+}
+
+*/
+
+.blueBack {
+			  padding: 5px  ;
+			  background-color: red;
+			  width: 80%;
+			  
+			  text-align: left;
+			  font-size:1vw;
+			  font: Verdana;
+		}
+		
+		
+.arabicfont {
+    font-family: "Naskh","Hafs","Adobe Arabic","Simplified Arabic","Traditional Arabic","Arabic Typesetting","Times New Roman","Tahoma","Arial","serif";
+    line-height: 150%;
+}
+.quran-style {
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 150%;
+    direction: rtl;
+    text-align: justify;
+}
+
+.surah-style {
+    font-size: 22px;
+    font-weight: bold;
+    direction: rtl;
+    line-height: 150%;
+}
+
+.surah_title {
+    font-size: 28px;
+    font-weight: bold;
+    direction: rtl;
+    text-align: justify;
+    line-height: 100%;
+}
+
+.surah_subtitle {
+    font-size: 24px;
+    font-weight: bold;
+    direction: rtl;
+    line-height: 100%;
+}
+
+.tooltip.in {
+  filter: alpha(opacity=100);
+  opacity: 1;
+}
+.tooltip-inner {
+  max-width: 300px;
+  padding: 3px 8px;
+  /*
+  border: solid 2px #ccc;
+  background-color: #fff;
+  color: #000;
+  border-radius: 8px;
+  */
+  text-align: justify;
+  font-size: 2em;
+  filter: alpha(opacity=100);
+  opacity: 1;
+}
+
+.quran-content-wrapper {
+    text-align: justify;
+    -moz-text-align-last: center; /* Code for Firefox */
+    text-align-last: center;
+    margin: 0 auto;
+    height: 100%;
+    width:100%;
+    background-color: white;
+    color: #000;
+    background: url(https://www.islambook.com/theme/default/images/quran-bg.png) transparent !important;
+}
+
+.quran-style .panel-body {
+    padding: 0px;
+}
+
+.quran-ayah-num{
+    direction: ltr;
+	font-size: .8em;
+}
+
+.border-image {
+    border-style: solid;
+    /*border-width: 43px 50px 47px 48px;*/
+    border-width: 10px;/* 28px */
+    background: rgba(0,0,0,0);
+    -moz-border-image: url('https://www.islambook.com/theme/default/images/quran-border.png') 43 50 47 48 repeat;
+    -webkit-border-image: url('https://www.islambook.com/theme/default/images/quran-border.png') 43 50 47 48 repeat;
+    -o-border-image: url('https://www.islambook.com/theme/default/images/quran-border.png') 43 50 47 48 repeat;
+    border-image: url('https://www.islambook.com/theme/default/images/quran-border.png') 43 50 47 48 repeat;
+}
+
+.text-right{
+    text-align: right !important;
+}
+
+.text-center{
+    text-align: center !important;
+}
+
+.text-left{
+    text-align: left !important;
+}
+
+.surah-header-corner {
+    background-size: contain;
+    background-image:  url('https://www.islambook.com/theme/default/images/surah-header-bg.png');
+    background-repeat: no-repeat;
+}
+
+.surah-header {
+    /*background-size: cover;*/
+    background-image:  url('https://www.islambook.com/theme/default/images/surah-header-bg.png');
+    background-repeat: repeat;
+}
+
+.panel {
+    margin-bottom: 0;/*21px*/
+}
+.panel-body {
+    padding: 0px;
+}
+/* iframe's parent node */
+.iframe-div {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+/* iframe itself */
+.iframe-expand {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
